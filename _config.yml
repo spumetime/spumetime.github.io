@@ -3,13 +3,13 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Zoe博客
-subtitle: ''
-description: ''
+title: 左一博客
+subtitle: '做人呢，最重要的是开心呐'
+description: '开心的玩、开心的学咯'
 keywords:
 author: 林勇（左一/Zoe）
 language: zh
-timezone: ''
+timezone: 'Asia/Shanghai'
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
