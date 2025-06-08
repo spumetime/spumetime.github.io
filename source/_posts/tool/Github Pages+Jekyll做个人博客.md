@@ -1,7 +1,7 @@
 ---
 title: Github Pages+Hexo做个人博客
 date: 2025-06-09 01:49:37
-tags: 猿工具
+tags: [猿工具]
 ---
 
 官方文档：[https://docs.github.com/en/pages/quickstart](https://docs.github.com/en/pages/quickstart)
