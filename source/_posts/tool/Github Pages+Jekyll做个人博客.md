@@ -1,5 +1,5 @@
 ---
-title: Github Pages+Hexo做个人博客
+title: Github Pages+Jekyll做个人博客
 date: 2025-06-09 01:49:37
 tags: [猿工具]
 

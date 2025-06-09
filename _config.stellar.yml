@@ -4,7 +4,11 @@ open_graph:
 
 article:
   type: tech # tech/story
-  auto_cover: true
+  auto_cover: false
+  auto_excerpt: 200
+
+logo:
+  subtitle: '做人呢，最重要的就是开心 | 你说是吧？' # 鼠标放上去会切换到文字2
 
 # 侧边栏主功能导航菜单
 # menubar:
@@ -40,6 +44,5 @@ search:
     content: true # 是否搜索内容
     skip_search: [] # 指定 path 中的内容不被搜索。
     codeblock: true # 是否搜索代码块（需要content: true)
-
 
 
