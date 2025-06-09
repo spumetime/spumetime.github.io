@@ -2,8 +2,12 @@
 title: 《IT架构转型-阿里中台》
 date: 2019-05-24 00:00:00
 tags: [猿阅读,架构]
+
+
 ---
+
 # 前言
+
 本文是对《企业IT架构转型之道——阿里巴巴中台战略思想与架构实战》的读书总结。
 
 不会涉及太多技术具体点，而是将本书的逻辑脉络和结论梳理出来，方便大家阅读（带有个人理解，请批判性的阅读）。
@@ -19,10 +23,11 @@ tags: [猿阅读,架构]
 <u>最后将全文总结出一个极为简单的公式，供大家参考</u>
 
 # 问题
+
 书中提出了传统企业以及一些互联网企业中存在的两个问题。
 
 ### 1.“烟囱式”系统建设模式带来的弊端
- 	
+
 
 + 重复功能建设和维护带来的重复投资
 
@@ -35,7 +40,7 @@ tags: [猿阅读,架构]
 + 不利于业务的沉淀和持续发展
 
 ### 2.业务支持一直是企业信息中心的组织职能
- 	
+
 
 + 行政级别的平等并不代表着具有同样平等的部门话语权
 
@@ -64,16 +69,17 @@ tags: [猿阅读,架构]
 + <font style="color:#f33b45;">IT部门在集团地位不高</font>
 
 # 方案
+
 为了解决上面问题，书中梳理了阿里共享式业务中台的发展过程，最后提出了一种名为“中台战略”的解决方案。
 
 共享式业务中台的发展，就省略了，对于具体解读 ，可以在网络搜索。
 
-![](https://cdn.nlark.com/yuque/0/2025/png/35639562/1749398985882-c5faf3eb-5b06-431f-a436-b705618953be.png)编辑
+![](https://spumetime-blog.oss-cn-shenzhen.aliyuncs.com/img/1749398985882-c5faf3eb-5b06-431f-a436-b705618953be.png)编辑
 
 这一张图（图片来源于网络，都有网址水印）就是阿里中台战略的全貌，中间主体部分就是“中台”，其中一个个中心是服务中心。这种“小前端，大中台”的结构有什么价值呢？
 
 ### 共享式业务中台价值
- 	
+
 
 + 回归SOA的本质——服务重用
 
@@ -96,14 +102,17 @@ tags: [猿阅读,架构]
 这上面<font style="color:#f33b45;">五点价值一定要理解背诵</font>，这都是谈资啊。
 
 # 实现
+
 该书后面花了很大篇幅讲了如何实现“中台战略”，从框架选择到服务如何治理。我本人认为，这些内容其实在如今微服务、容器、以及容器管理很多方面都涉及到了。
 
 ### 1.中台的框架选择
-![](https://cdn.nlark.com/yuque/0/2025/png/35639562/1749398986041-daca37f2-4422-47b2-aba5-3bf2b293568c.png)编辑![](https://cdn.nlark.com/yuque/0/2025/png/35639562/1749398985818-e817b333-28d6-49aa-a471-37946e91737f.png)编辑
+
+![](https://spumetime-blog.oss-cn-shenzhen.aliyuncs.com/img/1749398986041-daca37f2-4422-47b2-aba5-3bf2b293568c.png)编辑![](https://spumetime-blog.oss-cn-shenzhen.aliyuncs.com/img/1749398985818-e817b333-28d6-49aa-a471-37946e91737f.png)编辑
 
 <font style="color:#000000;">经过“中心化”（</font><font style="color:#000000;">ESB</font><font style="color:#000000;">）与“去中心化”（</font><font style="color:#000000;">dubbo</font><font style="color:#000000;">、</font><font style="color:#000000;">HSF</font><font style="color:#000000;">）</font><font style="color:#000000;">服务框架的对比，目前都更倾向于去中心化的服务框架。因为“中心化”会让一次调用变成两次调用，并且总线容易成为整个系统的瓶颈，如果它崩了，整个系统也就崩了。</font>
 
 ### 2.服务中心建设的原则
+
 服务中心更应该是一个充满生命力的个体，在整个系统中承担自己专门的职能，跟随整个体系一起发展进化。不过这个个体具有很强的自我意识，有更大的发展自由度。
 
 上面是原书copy的定义，我写不出这么晦涩，一眼难懂的定义= = ！不过书中这三点特点，简洁易懂。
@@ -141,6 +150,7 @@ tags: [猿阅读,架构]
 <font style="color:#f33b45;">服务中心三点特点，以及划分原则，值得理解背诵</font>
 
 ### 3.涉及到的技术
+
 原书有很大篇幅讲这些技术实现，这些技术很重要，其中任何一项都可以写好几本书。但是我对这个不太愿意花时间，因为我看这本书重点是为“中台”，当然这些技术是中台实现不可或缺的，不看但是得知道哦。
 
 如果需要了解，推荐这个博客，比较全[阿里巴巴中台战略--阿里共享事业部的产生、演变和发展（含pdf下载）_阿里事业部-CSDN博客](https://blog.csdn.net/u014231523/article/details/86739833)
@@ -166,30 +176,35 @@ tags: [猿阅读,架构]
 + 大促秒杀活动催生缓存技术的高度使用
 
 ### 4.服务治理
+
 当选择了去中心化的服务框架后，如何治理这些服务就变得很重要了。
 
 这里面每一项服务治理，也可以写好多书，如果只是为了中台，稍微理解就OK了
 
 ### 通过鹰眼平台跟踪服务调用链
-![](https://cdn.nlark.com/yuque/0/2025/png/35639562/1749398985806-d42faa55-812e-49cf-9af7-3968f4b0a4be.png)编辑
+
+![](https://spumetime-blog.oss-cn-shenzhen.aliyuncs.com/img/1749398985806-d42faa55-812e-49cf-9af7-3968f4b0a4be.png)编辑
 
 ### **<font style="color:#000000;">通过多种措施保证平台的稳定性</font>**
-|  			<br/>**<font style="color:#ffffff;">针对方面</font>**<br/> 			 |  			<br/>**<font style="color:#ffffff;">工具或方法</font>**<br/> 			 |
-| :---: | --- |
-|  			<br/><font style="color:#000000;">限流和降级</font><br/> 			 |  			<br/><font style="color:#000000;">TMD(</font><font style="color:#000000;">Taobao</font><font style="color:#000000;"> Missile Defense) / </font><font style="color:#000000;">http_sysguard</font><font style="color:#000000;"> / Sentinel</font><br/> 			 |
-|  			<br/><font style="color:#000000;">流量调度</font><br/> 			 |  			<br/><font style="color:#000000;">流量调度平台</font><br/> 			 |
-|  			<br/><font style="color:#000000;">业务开关</font><br/> 			 |  			 			 |
-|  			<br/><font style="color:#000000;">容量压测和评估</font><br/> 			 |  			<br/><font style="color:#000000;">单机最大能力估测方法</font><br/> 			 |
-|  			<br/><font style="color:#000000;">全链路压测</font><br/> 			 |  			<br/><font style="color:#000000;">全链路压测平台</font><br/> 			 |
-|  			<br/><font style="color:#000000;">业务一致性</font><br/> 			 |  			<br/><font style="color:#000000;">BCP(Business Check Platform)</font><br/> 			 |
+
+|  <br/>**<font style="color:#ffffff;">针对方面</font>**<br/>  | <br/>**<font style="color:#ffffff;">工具或方法</font>**<br/> |
+| :----------------------------------------------------------: | ------------------------------------------------------------ |
+|   <br/><font style="color:#000000;">限流和降级</font><br/>   | <br/><font style="color:#000000;">TMD(</font><font style="color:#000000;">Taobao</font><font style="color:#000000;"> Missile Defense) / </font><font style="color:#000000;">http_sysguard</font><font style="color:#000000;"> / Sentinel</font><br/> |
+|    <br/><font style="color:#000000;">流量调度</font><br/>    | <br/><font style="color:#000000;">流量调度平台</font><br/>   |
+|    <br/><font style="color:#000000;">业务开关</font><br/>    |                                                              |
+| <br/><font style="color:#000000;">容量压测和评估</font><br/> | <br/><font style="color:#000000;">单机最大能力估测方法</font><br/> |
+|   <br/><font style="color:#000000;">全链路压测</font><br/>   | <br/><font style="color:#000000;">全链路压测平台</font><br/> |
+|   <br/><font style="color:#000000;">业务一致性</font><br/>   | <br/><font style="color:#000000;">BCP(Business Check Platform)</font><br/> |
 
 
 ### **<font style="color:#000000;">共享服务平台实现对内对外的协作共享</font>**
+
 <font style="color:#000000;">怎么样才能非常高效地找到我需要的服务，并能快速地接入和使用起来？  
 </font><font style="color:#000000;">当团队和业务规模小的时候，面对面的交流是最有效的方式，但是当到达一定的数量级的时候，通过人与人之间的互通有无肯定不可行了。  
 </font><font style="color:#000000;">解决办法：服务能力在线化、数据化——共享服务平台；其实就是在线文档化。</font>
 
 # 总结
+
 通读这本书之后，给出一个公式就是：<font style="color:#f33b45;">中台战略=软件架构+组织架构</font>。
 
 很多IT人员只考虑软件架构，没有想过组织架构，中台战略就是将这两者统一。组织架构变成一个个业务集中的服务中心后，数据、人力资源等慢慢集中了，地位自然慢慢就上去了。对中心的绩效考核也容易管理，员工的响应也变快了。
@@ -199,4 +214,3 @@ tags: [猿阅读,架构]
 去中心化的服务框架，书本作者认为微服务是一种较好实现，俺也是这样认为。那么这个公式再进一步约简：<font style="color:#f33b45;">软件架构=微服务+服务治理</font>
 
 最后总结得出一个公式掌握阿里“中台战略”就是：**<font style="color:#f33b45;">中台战略=微服务+服务治理+组织架构</font>**
-
