@@ -1,7 +1,5 @@
 ---
-meta:
-  referrer:
-    no-referrer
+referrer: no-referrer
 title: 《IT架构转型-阿里中台》
 date: 2019-05-24 00:00:00
 tags: [猿阅读,架构]
