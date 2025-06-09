@@ -1,0 +1,15 @@
+# Menu-Sidebar
+menu:
+  Home: /
+  Archives: /归档
+  Categories: /分类
+  Tags: /tags
+  About: /关于
+
+# Sidebar
+sidebar: right
+widgets:
+  - tag
+  - recent_posts
+  - category
+  - archive
