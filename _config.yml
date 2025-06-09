@@ -8,7 +8,9 @@ subtitle: 做人呢，最重要的是开心咯
 description:
 keywords:
 author: 林勇（左一/Zoe）
-language: zh
+language:
+  - zh-CN
+  - en
 timezone:
 
 # URL
