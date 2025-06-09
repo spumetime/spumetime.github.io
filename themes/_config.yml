@@ -1,0 +1,23 @@
+user:
+  name:
+  avatar: /images/avatar.jpg
+  location:
+  description:
+  footnotes:
+
+# config you SNS
+social:
+  zhihu:
+  twitter:
+  facebook:
+  linkedin:
+  instagram:
+  github: haojen
+
+# 页面 icon
+favicon: images/favicon.ico
+
+# 友情链接
+friend_links:
+  - title: Link1
+    link: https://www.link1.test.com/
