@@ -1,10 +1,10 @@
 # Menu-Sidebar
 menu:
   Home: /
-  Archives: /归档
-  Categories: /分类
+  Archives: /archives
+  Categories: /categories
   Tags: /tags
-  About: /关于
+  About: /about
 
 # Sidebar
 sidebar: right
