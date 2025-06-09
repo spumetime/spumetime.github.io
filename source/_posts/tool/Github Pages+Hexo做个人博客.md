@@ -1,8 +1,8 @@
 ---
 title: Github Pages+Hexo做个人博客
 date: 2025-06-09 01:49:37
-tags: [猿工具]
-
+categories: [猿工具]
+tags: [个人博客]
 ---
 
 Hexo官网教学：[https://hexo.io/zh-cn/docs/](https://hexo.io/zh-cn/docs/)。下面是我自己的实操，请配合使用。
