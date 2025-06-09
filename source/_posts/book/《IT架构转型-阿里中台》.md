@@ -1,3 +1,4 @@
+<meta name="referrer" content="no-referrer" />
 ---
 title: 《IT架构转型-阿里中台》
 date: 2019-05-24 00:00:00
