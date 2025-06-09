@@ -141,7 +141,5 @@ jobs:
 
 我们技术文章一般都包含图片，我之前是用语雀写的，语雀图片链接是防盗链，github无法访问。尝试了好多其他方法都不行，最后就按下面方法搭建的图床服务解决的。这个需要花点钱。
 
-[]: https://developer.aliyun.com/article/1465963?spm=5176.26934562.main.1.307618efatoMcH	""PicGo+Typora+阿里云OSS的图床搭建""
-
 
 
