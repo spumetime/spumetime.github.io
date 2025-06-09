@@ -124,15 +124,3 @@ jobs:
 然后等待github部署完成，就可以输入name.github.io访问了
 
 ![](https://spumetime-blog.oss-cn-shenzhen.aliyuncs.com/img/1749404573682-243248d9-a571-4a40-a292-ab3d0750dea3.png)
-
-# 修改主题
-
-找到hexo的主题官网：https://hexo.io/themes/，我看中下面这个Claudia主题点击标题就可以看到如何安装了。
-
-![image-20250609212658546](https://spumetime-blog.oss-cn-shenzhen.aliyuncs.com/img/image-20250609212658546.png)
-
-![image-20250609212746645](https://spumetime-blog.oss-cn-shenzhen.aliyuncs.com/img/image-20250609212746645.png)
-
-我一口气全运行
-
-![image-20250609212857949](https://spumetime-blog.oss-cn-shenzhen.aliyuncs.com/img/image-20250609212857949.png)

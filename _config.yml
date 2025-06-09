@@ -45,7 +45,6 @@ relative_link: false
 future: true
 syntax_highlighter: highlight.js
 highlight:
-  enable: false
   line_number: true
   auto_detect: false
   tab_replace: ''
@@ -97,7 +96,7 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: claudia
+theme: async
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
