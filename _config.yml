@@ -6,8 +6,8 @@
 title: 左一博客
 # subtitle: # subtitle 已移至主题配置中
 description:
-avatar: https://spumetime-blog.oss-cn-shenzhen.aliyuncs.com/img/20250610005819525.jpg
-favicon: https://spumetime-blog.oss-cn-shenzhen.aliyuncs.com/img/20250610005819525.jpg
+avatar: /assets/avatar.jpg
+favicon: /assets/avatar.jpg
 
 keywords:
 author: 林勇（左一/Zoe）

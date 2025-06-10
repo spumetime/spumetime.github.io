@@ -2,7 +2,7 @@
 title: Git常用命令
 date: 2020-07-08 11:32:29
 category: [猿工具]
-tags: [Git]
+tags: [git]
 ---
 
 安装git之后，以下配置需要执行
