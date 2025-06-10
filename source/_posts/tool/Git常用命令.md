@@ -38,7 +38,13 @@ $ git config user.email johndoe@example.com
 
 # 账号授权
 
-授权方式一般分为两种，https和ssh
+授权方式一般分为两种，https和ssh。确定当前仓库链接远程代码是使用http协议还是ssh协议
+
+```bash
+git remote -v
+
+-- 若显示有http则为http协议
+```
 
 ## https
 
@@ -81,14 +87,6 @@ git push
 # 其他命令
 
 ## 查看权限
-
-第一步确定当前仓库链接远程代码是使用http协议还是ssh协议
-
-```bash
-git remote -v
-
--- 若显示有http则为http协议
-```
 
 查看当前本地仓库的账号是否有远程权限的方式
 
