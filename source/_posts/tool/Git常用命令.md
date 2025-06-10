@@ -25,8 +25,8 @@ $ git config --global user.email johndoe@example.com
 配置好了之后可以通过一下命令查询
 
 ```bash
-$ git config --global user.name 
-$ git config --global user.mail
+$ git config --get user.name 
+$ git config --get user.mail
 ```
 
 如果使用以下不带global的命令，那么用户和邮箱只对当前仓库有效
@@ -48,17 +48,21 @@ $ git config user.email johndoe@example.com
 
 ```
 # 本地生成一个新的 SSH 密钥对
-$ ssh-keygen -t ed25519 -C "your_email@example.com"
+ssh-keygen -t ed25519 -C "your_email@example.com"
 # -t ed25519	选用秘钥类型
 # -C "your_email@example.com"	
 # 上面语句执行完成之后，会在本地生成两个文件
 # /Users/yourname/.ssh/id_ed25519 秘钥 严禁泄露，保存在本地
 # /Users/yourname/.ssh/id_ed25519.pub 公钥，需上传至 GitHub/GitLab 等平台
 # 生成之后可以执行以下命令查看
-$ ls -al ~/.ssh
+ls -al ~/.ssh
 ```
 
+如果当前仓库是https协议，切换成ssh，执行以下命令
 
+``` bash
+git remote set-url origin git@github.com:someaccount/someproject.git
+```
 
 # 克隆代码
 
