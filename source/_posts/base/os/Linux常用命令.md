@@ -1,6 +1,6 @@
 ---
 title: Linux常用命令
-date: 2025-06-10 11:13:00
+date: 2017-08-10 11:13:00
 categories: [猿基础]
 tags: [linux]
 ---
