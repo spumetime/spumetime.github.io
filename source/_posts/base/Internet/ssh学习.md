@@ -4,7 +4,7 @@ categories:
   - 猿基础
 tags:
   - ssh
-  - Linux
+  - linux
   - 信息安全
 date: 2025-06-10 12:08:19
 ---

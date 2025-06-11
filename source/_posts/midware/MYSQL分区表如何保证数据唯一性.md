@@ -3,7 +3,8 @@ title: MYSQL分区表如何保证数据唯一性
 categories:
   - 中间件
 tags:
-  - db.yml
+  - mysql
+  - 数据一致性
 date: 2019-12-19 11:31:57
 ---
 
