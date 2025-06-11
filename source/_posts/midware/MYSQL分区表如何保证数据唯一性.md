@@ -3,7 +3,7 @@ title: MYSQL分区表如何保证数据唯一性
 categories:
   - 中间件
 tags:
-  - mysql
+  - db.yml
 date: 2019-12-19 11:31:57
 ---
 
