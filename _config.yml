@@ -7,7 +7,9 @@ title: 左一博客
 # subtitle: # subtitle 已移至主题配置中
 description:
 avatar: /assets/avatar.jpg
-favicon: /assets/avatar.jpg
+favicon: /assets/favicon.jpg
+url: https://spumetime.github.io # 当前站点
+root: / #网站根目录
 
 keywords:
 author: 林勇（左一/Zoe）
